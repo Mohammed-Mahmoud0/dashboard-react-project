@@ -1,0 +1,51 @@
+.nav-link-hover {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link-hover:hover {
+  background-color: #21262d !important;
+  color: #ffffff !important;
+}
+
+.dark-card {
+  background-color: #2d2d2d;
+  border: 1px solid #404040;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dark-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-bg {
+  background-color: #1a1a1a;
+}
+
+.dark-header {
+  background-color: #0d1117;
+  border-bottom: 1px solid #30363d;
+}
+
+.user-manager-dark,
+.note-manager-dark,
+.analytics-dark,
+.weather-widget-dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.user-manager-dark h2,
+.note-manager-dark h2,
+.analytics-dark h2,
+.weather-widget-dark h2 {
+  color: #ffffff;
+}
+
+.user-manager-dark p,
+.note-manager-dark p,
+.analytics-dark p,
+.weather-widget-dark p {
+  color: #b3b3b3;
+}

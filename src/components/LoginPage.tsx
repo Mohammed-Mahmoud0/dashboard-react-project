@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../assets/Login.css";
+import "../styles/Login.css";
 import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
@@ -15,10 +15,10 @@ function LoginPage() {
       setError("Please fill in all fields");
       return;
     }
-    if (username === "admin" && password === "1234") {
+    if (username === "admin" && password === "admin123") {
       localStorage.setItem("isLoggedIn", "true");
       alert("Login successful!");
-      navigate("/users");
+      navigate("/dashboard");
     } else {
       setError("Invalid username or password");
     }
@@ -47,7 +47,7 @@ function LoginPage() {
         {error && <p className="error">{error}</p>}
         <button type="submit">Login</button>
       </form>
-      <p className="hint">Use: admin / 1234</p>
+      <p className="hint">Use: admin / admin123</p>
     </div>
   );
 }
