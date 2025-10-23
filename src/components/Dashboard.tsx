@@ -10,7 +10,6 @@ function Dashboard() {
       </div>
       
       <div className="row g-4">
-        {/* Card 1: User & Posts Manager */}
         <div className="col-lg-6 col-md-12">
           <div className="card h-100 dark-card">
             <div className="card-body">
@@ -21,7 +20,6 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* Card 2: Note Manager */}
         <div className="col-lg-6 col-md-12">
           <div className="card h-100 dark-card">
             <div className="card-body">
@@ -32,7 +30,6 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* Card 3: Simple Analytics */}
         <div className="col-lg-6 col-md-12">
           <div className="card h-100 dark-card">
             <div className="card-body">
@@ -43,7 +40,6 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* Card 4: Weather Widget */}
         <div className="col-lg-6 col-md-12">
           <div className="card h-100 dark-card">
             <div className="card-body">

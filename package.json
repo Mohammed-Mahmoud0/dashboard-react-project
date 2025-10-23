@@ -1,7 +1,8 @@
 {
-  "name": "lab-4",
+  "name": "dashboard-react-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A React TypeScript dashboard application with user management, notes, analytics, and weather widget",
   "type": "module",
   "scripts": {
     "dev": "vite",
